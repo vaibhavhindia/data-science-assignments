@@ -1,5 +1,9 @@
-# data-science-assignments
-# This Contains my notes and Python code of all the machine learning algorithms
+# Data-Science-Assignments
+
+
+# This Contains my notes/study material releated to the topics and Python code of all the machine learning algorithms.
+
+# index
 
 
 1 assignment - Basic statistics(1)
