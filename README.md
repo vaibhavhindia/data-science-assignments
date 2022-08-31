@@ -78,10 +78,12 @@
   1. Gamma: In case of high value of Gamma decision boundary is dependent of points cloase it where in case of low value of Gamma decision SVM will          consider the far away points also while deciding the decision boundary .
   2. Regularization parameter(C): Large C will result in overfitting and which will lead to lower bias and high variance. Small C will result in            underfitting and which will lead to higher bias and low variance .
   # References
-  . https://www.youtube.com/watch?v=FB5EdxAGxQg
-  . https://www.youtube.com/watch?v=Y6RRHw9uN9o
-  . https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
-  . https://www.youtube.com/watch?v=m2a2K4lprQw
+  1. https://www.youtube.com/watch?v=FB5EdxAGxQg
+  2. https://www.youtube.com/watch?v=Y6RRHw9uN9o
+  3. https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+  4. https://www.youtube.com/watch?v=m2a2K4lprQw
+  
+  
 
   
 
