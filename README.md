@@ -74,7 +74,7 @@
   6. e.g. suppose we have a dataset of dogs and cats. In that dataset there is a dog that looks like a cat and a cat thats is groomed like a dog. So        our SVM algorithm will use these two extreame examples as support vectors and draws boundary to classify the dogs and cats classes. Since this          boundary is based on extream examples(support vector) it will takes care of other training examples as well.
   7. SVM will use multiple such support vectors to classify dataset and increase the margin between to classes .
   
-  # SVM parameters
+  ## SVM parameters
   1. Gamma: In case of high value of Gamma decision boundary is dependent of points cloase it where in case of low value of Gamma decision SVM will          consider the far away points also while deciding the decision boundary .
   2. Regularization parameter(C): Large C will result in overfitting and which will lead to lower bias and high variance. Small C will result in            underfitting and which will lead to higher bias and low variance .
   # References
@@ -119,7 +119,7 @@
 5. Now in 'move' step K means algorithm will find the mean of each data point assigned to the cluster centroid and move the respective centroid to the    mean value location.
 6. Now alogorith will keep doing the 'assigment' and 'move' steps till the convergance.
 
-# Choosing no of clusters (k)
+## Choosing no of clusters (k)
 1. Mostly K value choosen mannually
 2. Elbow Method
 
