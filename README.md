@@ -47,3 +47,28 @@
  2. The reason we don't use same training set for testing is because our model has seen those samples before, using same samples for making predictions might give us wrong impression about accuracy of our model.
  3. Here we are going to use sklearn.model_selection.train_test_split method.
  
+ 
+ # Logistic Regression
+ 1. Logistic regression is a supervised learning classification algorithm used to predict the probability of a target variable.
+ 2. Binary classficiation: When outcome has only two categories. (yea/no, 0/1, buy/not buy) e.g. Predicting whether customer will buy insurance policy.
+ 3. Multiclass classification: When outcome has more than two categoirs. e.g Which party a person is going to vote for (BJP, Congres, AAP).
+ 
+ # Decisions Trees 
+ 1. Decisions trees are the most powerful algorithms that falls under the category of supervised algorithms.
+ 2. Unlike other supervised learning algorihms decision tree can be used to solve regression and classification problems.
+ 3. The goal of decision tree is to create training model that can predict class or value by learning simple decision rules from training data.
+ 4. The two main entities of a tree are decision nodes, where the data is split and leaves, where we got outcome.
+ 5. Decision tree algorithm forms the tree, based on 'High Information Gain'. Lower the entropy higher the information gain.
+ 6. Entropy: It is basically a measure of randomness in your sample. So if there is no randomness in your sample then then entropy is low.
+ 7. Types of decision tree
+  a. Classification decision trees − In this kind of decision trees, the decision variable is categorical. The above decision tree is an example of classification decision tree.
+  b. Regression decision trees − In this kind of decision trees, the decision variable is continuous.
+  
+  
+  # Support Vector Machine (SVM)
+  
+
+ 
+ 
+ 
+
