@@ -87,10 +87,10 @@
   1. Random forest is supervised learning algoriothm which is used for classification as well as regression. However it is mostly used for                  classfication problems .
   2. In Random forest algorithm dataset is devided in multiple batches and using 'Decision Tree' algorithm, gets prediction for each batch and then          choose the best solution based on voting.
   3. We can understand the working of Random Forest algorithm with the help of following steps:
-     Step 1 − First, start with the selection of random samples from a given dataset.
-     Step 2 − Next, this algorithm will construct a decision tree for every sample. Then it will get the prediction result from every decision tree.
-     Step 3 − In this step, voting will be performed for every predicted result.
-     Step 4 − At last, select the most voted prediction result as the final prediction result.
+    1. Step 1 − First, start with the selection of random samples from a given dataset.
+    2. Step 2 − Next, this algorithm will construct a decision tree for every sample. Then it will get the prediction result from every decision tree.
+    3. Step 3 − In this step, voting will be performed for every predicted result.
+    4. Step 4 − At last, select the most voted prediction result as the final prediction result.
      
 # Pros
 1. It overcomes the problem of overfitting by averaging or combining the results of different decision trees.
