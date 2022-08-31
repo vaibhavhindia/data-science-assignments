@@ -107,7 +107,23 @@
 4. It is less intuitive in case when we have a large collection of decision trees.
 5. The prediction process using random forests is very time-consuming in comparison with other algorithms.
 
-#
+# K Means Clustering
+1. K Means is unsupervised learning algorith. It is used to find the clusters of data in unlabelled data.
+2. K = No of principal componenet or no of clusters.
+
+# How K Means Algorith works
+1. First steps is to randomly initialize two points and call them centroids .
+2. No of centroids should be equal to no of clusters you want to predict.
+3. Now in 'assignment steps' K Means algorithm will go through each of the data points and depending on its closeness to the cluster it will assign      the data points to a cluster.
+4. During 'assignment' if there is any centroid who has no data point associated with it, then it can be removed.
+5. Now in 'move' step K means algorithm will find the mean of each data point assigned to the cluster centroid and move the respective centroid to the    mean value location.
+6. Now alogorith will keep doing the 'assigment' and 'move' steps till the convergance.
+
+# Choosing no of clusters (k)
+1. Mostly K value choosen mannually
+2. Elbow Method
+
+
   
 
   
