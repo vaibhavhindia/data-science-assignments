@@ -77,7 +77,7 @@
   ## SVM parameters
   1. Gamma: In case of high value of Gamma decision boundary is dependent of points cloase it where in case of low value of Gamma decision SVM will          consider the far away points also while deciding the decision boundary .
   2. Regularization parameter(C): Large C will result in overfitting and which will lead to lower bias and high variance. Small C will result in            underfitting and which will lead to higher bias and low variance .
-  # References
+  ## References
   1. https://www.youtube.com/watch?v=FB5EdxAGxQg
   2. https://www.youtube.com/watch?v=Y6RRHw9uN9o
   3. https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
@@ -92,7 +92,7 @@
     3. Step 3 − In this step, voting will be performed for every predicted result.
     4. Step 4 − At last, select the most voted prediction result as the final prediction result.
      
-# Pros
+## Pros
 1. It overcomes the problem of overfitting by averaging or combining the results of different decision trees.
 2. Random forests work well for a large range of data items than a single decision tree does.
 3. Random forest has less variance then single decision tree.
@@ -100,7 +100,7 @@
 5. Scaling of data does not require in random forest algorithm. It maintains good accuracy even after providing data without scaling.
 6. Random Forest algorithms maintains good accuracy even a large proportion of the data is missing.
 
-# Cons
+## Cons
 1. Complexity is the main disadvantage of Random forest algorithms.
 2. Construction of Random forests are much harder and time-consuming than decision trees.
 3. More computational resources are required to implement Random Forest algorithm.
@@ -111,7 +111,7 @@
 1. K Means is unsupervised learning algorith. It is used to find the clusters of data in unlabelled data.
 2. K = No of principal componenet or no of clusters.
 
-# How K Means Algorith works
+## How K Means Algorith works
 1. First steps is to randomly initialize two points and call them centroids .
 2. No of centroids should be equal to no of clusters you want to predict.
 3. Now in 'assignment steps' K Means algorithm will go through each of the data points and depending on its closeness to the cluster it will assign      the data points to a cluster.
@@ -124,6 +124,48 @@
 2. Elbow Method
 
 # Naive Bayes Algorithm
+## Basic Probability
+1. Probability of getting head/tail when you flip a coin is 0.5 i.e. 50% .
+2. Similarly probability of getting queen from a deck of card is 4/52 i.e. 7.7 %
+
+## Consitional Probability
+1. Unlike basic probability in conditional probability we know that the event A has occured and we are trying to predict the probability of B. i.e.      What is probability of getting a queen of diamond. Here card type diamond is event A.
+2. So the consitional probability of getting a queen of diamond is represented as P(Queen/Diamond) = 1/13 i.e. 7.7%
+3. More general representation is P(A/B) = Probability of 'Event A' knowing that 'Event B' has already occured .
+4. Thomas Bayes conditional probability equation is: P(A/B) = ( P(B/A) * P(A) ) / P(B)
+
+## Naive Bayes
+1. So using Bayes conditional probability equation we can find the probability of certain events based on probability of some knwon events.
+2. Its called 'Naive' because it assumes the known events(features) are independent of each other. This makes our calculations little simpler .
+
+## Naive Base Classifiers
+
+### Bernoulli Naive Bayes
+1. It Assumes that all our features are binary, means they take only two values 0 and 1 .
+2. e.g. 1 can represent spam mails where 0 can represent ham mails .
+
+### Multinomial Naive Bayes
+It is used when we have descrete data e.g. Movie rating from 1 to 5 as each rating will have certain frequency to represent .
+
+### Gaussian Naive Bayes
+1. Because of the assumtion of nominal distributions(bell curve) Gaussian Naive Bayes is used when all the features are continous .
+2. E.g. IRIS flower dataset features(sepal width, sepal length, petal width, patal length) are continuous. We can t represent these features in terms    of their occurance which means data is continuous .
+
+## Where its used
+1. Email spam detection
+2. Handwritten digit recognition
+3. Weather prediction 
+4. Face detection
+5. News article categorization
+
+
+
+
+
+
+
+
+
 
 
 
