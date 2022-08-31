@@ -123,6 +123,9 @@
 1. Mostly K value choosen mannually
 2. Elbow Method
 
+# Naive Bayes Algorithm
+
+
 
   
 
